@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: currency-converter
-        image: your-dockerhub-username/currency-converter:latest
+        image: devvikramaditya/currency-converter:latest
         ports:
         - containerPort: 3000
         env:
